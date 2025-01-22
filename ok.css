@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'benzin-bold'; /* Укажите название шрифта */
+    src: url('shrifts/benzin-bold.otf') format('opentype'); /* Указываем путь к файлу */
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* Сбрасываем отступы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-color: black;
+}
+
+/* Основной контейнер навбара */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Равномерное распределение элементов */
+    padding: 15px 30px;
+    background-color: #000;
+    color: white;
+    width: 1340px;
+    margin: 0 auto;
+}
+
+/* Логотип */
+.logo img {
+    height: 37px; /* Измените на нужный размер */
+}
+
+.logo:hover{
+    cursor: pointer;
+
+}
+
+ul{
+    list-style-type: none;  /* Убираем точки перед элементами */
+}
+
+/* Общие стили для навигационных блоков */
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 15px; /* Отступы между элементами */
+}
+
+/* Ссылки в меню */
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+.contacts ul {
+    display: flex;  
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px; /* Отступы между элементами */
+    align-items: center; /* Выравниваем по вертикали */
+    justify-content: center; /* Выравниваем по горизонтали */
+}
+
+/* Контакты */
+.contacts ul li img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.contacts ul li strong {
+    font-size: 18px;
+    color: white;
+}
+
+.contacts ul li:last-child img {
+    width: 160px;  /* Увеличиваем размер */
+    height: auto; /* Сохраняем пропорции */
+}
+
+.cel {
+    position: relative;
+    width: 1340px;
+    height: 493px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 50px 20px 0px;
+    background-color: #fff;
+    color: #000;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cel h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.cel h1 span {
+    color: #3805F2;
+}
+
+.cel p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.pod {
+    margin-top: 74px;
+    background-color: #3805F2;
+    color: #fff;
+    width: 280px;
+    height: 68px auto;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.plan{
+    position: absolute;
+    bottom: 0;
+    left: 520px;
+}
