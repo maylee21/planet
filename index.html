@@ -32,48 +32,266 @@
             </nav>
         </div>
     </header>
-    <main>
-        <section class="banner">
-            <div class="cel">
-                <h1>Раскройте тайны звезд <br> с помощью <span>Celestia</span></h1>
-                <p>Мы проводим специальные мероприятия, такие как ночи наблюдения за звездами,<br> лекции и многое другое</p>
-                <button class="pod">Подробнее</button>
-                <img class="plan" src="images/pl.png" alt="planet">
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Планетарий</title>
+        <link rel="stylesheet" href="ne.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <p class="logo">
+                    <img src="images/logo.png" alt="Celestia">
+                </p>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="" class="btn">Главная</a></li>
+                        <li><a href="" class="btn">События</a></li>
+                        <li><a href="" class="btn">Акции</a></li>
+                        <li><a href="" class="btn">Отзывы</a></li>
+                        <li><a href="" class="btn">FAQ</a></li>
+                        <li><a href="" class="btn">Контакты</a></li>
+                    </ul>
+                </nav>
+                <nav class="contacts">
+                    <ul>
+                        <li><img src="images/WhatsApp.png" alt="WhatsApp"></li>
+                        <li><img src="images/Telegram.png" alt="Telegram"></li>
+                        <li><strong>(812) 336 36 36</strong></li>
+                        <li><img src="images/buy.png" alt="Купить билет"></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="layout">
-                <div class="left-column">
-                    <div class="for">
-                        <h3>для<br>парочек</h3>
-                        <p>ночи наблюдения<br>за звездами</p>
-                        <img class="cir" src="images/blue.png" alt="кружок">
+        </header>
+        <main>
+            <section class="banner"><!-- начало 1 страницы -->
+                <div class="cel">
+                    <h1>Раскройте тайны звезд <br> с помощью <span>Celestia</span></h1>
+                    <p>Мы проводим специальные мероприятия, такие как ночи наблюдения за звездами,<br> лекции и многое другое</p>
+                    <button class="pod"><h3>Подробнее</h3></button>
+                    <img class="plan" src="images/pl.png" alt="planet">
+                </div>
+                <div class="layout">
+                    <div class="left-column">
+                        <div class="for">
+                            <h3 class="h32">для<br>парочек</h3>
+                            <p class="t2">ночи наблюдения<br>за звездами</p>
+                            <img class="cir" src="images/blue.png" alt="кружок">
+                        </div>
+                        <div class="disc">
+                            <h3 class="h32">20%</h3>
+                            <p class="t2">скидка пенсионерам</p>
+                            <img class="cir" src="images/white.png" alt="кружок">
+                        </div>
                     </div>
-                    <div class="disc">
-                        <h3>20%</h3>
-                        <p>скидка пенсионерам</p>
-                        <img class="cir" src="images/white.png" alt="кружок">
+                    <div class="gul">
+                        <div class="log">
+                            <img src="images/da.png" alt="Онлайн-прогулка">
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h3>>50</h3>
+                                <p>залов</p>
+                            </div>
+                            <div class="stat-item center">
+                                <h3>>100</h3>
+                                  <p>программ про <br>Вселенную </p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>>20</h3>
+                                <p>телескопов</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="gul">
-                    <div class="log">
-                        <img src="images/da.png" alt="Онлайн-прогулка">
+            </section><!-- конец 1 страницы -->
+            <!-- место для второй страницы -->
+            <section class="events">
+                <div class="container">
+                    <div class="title-decoration">
+                        <img src="images/zv.png" alt="Декоративная звезда" class="title-icon">
+                        <h2 class="section-title">События</h2>
+                        <img src="images/zv.png" alt="Декоративная звезда" class="title-icon">
                     </div>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <h3>>50</h3>
-                            залов
+        
+                    <div class="filters">
+                        <button class="filter-btn active">Программа</button>
+                        <button class="filter-btn">Мероприятия</button>
+                        <button class="filter-btn">Лекции</button>
+                    </div>
+        
+                    <!-- Карточка 1 -->
+                    <div class="event-card">
+                        <div class="image-wrapper">
+                            <img src="images/ab.png" alt="Звездное небо" class="event-image">
+                            <div class="event-badge"><img src="images/badge.png" alt="7+"></div>
                         </div>
-                        <div class="stat-item center">
-                            <h3>>100</h3>
-                            программ про <br>Вселенную
+        
+                        <div class="action-column">
+                            <div>
+                                <div class="program-type">ПОЛНОКУПОЛЬНАЯ ПРОГРАММА</div>
+                                <h3 class="event-title">ПРОГУЛКА ПО ЗВЕЗДНОМУ НЕБУ</h3>
+                            </div>
                         </div>
-                        <div class="stat-item">
-                            <h3>>20</h3>
-                            телескопов
+        
+                        <div class="action-column">
+                            <p class="event-description">
+                                Мы предлагаем вам прогуляться по самым ярким созвездиям северного полушария,
+                                насладиться петербургским звездным небом всех сезонов, полюбоваться Млечным 
+                                Путем и, конечно, загадать заветное желание на "падающую" звезду
+                            </p>
+        
+                            <div class="price-group">
+                                <div class="prices">
+                                    <div class="price-item">
+                                        <img src="images/child.png" alt="Детский" class="price-icon">
+                                        <span class="price">400 ₽</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <img src="images/adult.png" alt="Взрослый" class="price-icon">
+                                        <span class="price">600 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="buttons-group">
+                                    <button class="btn date-btn">Выбрать дату</button>
+                                    <button class="btn buy-btn">Купить билет</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Карточка 2 -->
+                    <div class="event-card">
+                        <div class="image-wrapper">
+                            <img src="images/2.png" alt="Солнечная система" class="event-image">
+                            <div class="event-badge"><img src="images/4+.png" alt="4+"></div>
+                        </div>
+        
+                        <div class="action-column">
+                            <div>
+                                <div class="program-type">ДЕТСКАЯ ИНТЕРАКТИВНАЯ ПРОГРАММА</div>
+                                <h3 class="event-title">ПУТЕШЕСТВИЕ ПО СОЛНЕЧНОЙ СИСТЕМЕ</h3>
+                            </div>
+                        </div>
+        
+                        <div class="action-column">
+                            <p class="event-description">
+                                Программа для самых юных посетителей, где можно весело и увлекательно<br>
+                                совершить экспедицию на космическом корабле к удивительным планетам. Узнаем<br>
+                                какая из планет самая большая, а какая ближе всего находится к Солнцу.
+                            </p>
+        
+                            <div class="price-group">
+                                <div class="prices">
+                                    <div class="price-item">
+                                        <img src="images/child.png" alt="Детский" class="price-icon">
+                                        <span class="price">400 ₽</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <img src="images/adult.png" alt="Взрослый" class="price-icon">
+                                        <span class="price">600 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="buttons-group">
+                                    <button class="btn date-btn">Выбрать дату</button>
+                                    <button class="btn buy-btn">Купить билет</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Карточка 3 -->
+                    <div class="event-card">
+                        <div class="image-wrapper">
+                            <img src="images/3.png" alt="Мифы и легенды" class="event-image">
+                            <div class="event-badge"><img src="images/10+.png" alt="10+"></div>
+                        </div>
+        
+                        <div class="action-column">
+                            <div>
+                                <div class="program-type">ПОЛНОКУПОЛЬНАЯ ПРОГРАММА</div>
+                                <h3 class="event-title">ТЕМНАЯ АСТРОНОМИЯ</h3>
+                            </div>
+                        </div>
+        
+                        <div class="action-column">
+                            <p class="event-description">
+                                До появления науки как таковой, мы обращались к мифам. В программе «Мифы и<br>
+                                легенды забавного неба» мы узнаем, как люди древности использовали<br>
+                                мифологическое мышление <br>
+                                в попытках понять, каково место человека во Вселенной...
+                            </p>
+        
+                            <div class="price-group">
+                                <div class="prices">
+                                    <div class="price-item">
+                                        <img src="images/child.png" alt="Детский" class="price-icon">
+                                        <span class="price">400 ₽</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <img src="images/adult.png" alt="Взрослый" class="price-icon">
+                                        <span class="price">600 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="buttons-group">
+                                    <button class="btn date-btn">Выбрать дату</button>
+                                    <button class="btn buy-btn">Купить билет</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Кнопка "Показать еще" -->
+                    <div class="show-more">
+                        <button class="btn show-more-btn">
+                            Показать еще
+                        </button>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- место для второй страницы -->
+            <section class="promo"><!-- начало 3 страницы -->
+                <h2><img class ="zv" src="images/zv.png" alt="звезда">Акции и скидки</h2>
+                <div class="promo-card-container">
+                    <div class="promo-card">
+                        <img src="images/cos.png" alt="бабушка">
+                        <div class="promo-content">
+                            <div>
+                                <h3>Скидка <br>для пенсионеров</h3>
+                                <p>Все пенсионеры получат 20% скидку<br>на билет при посещении планетария</p>
+                            </div>
+                            <a class="promo-btn"><img src="images/str.png" alt="стрелка"></a>
+                        </div>
+                    </div>
+                    <div class="promo-card">
+                        <img src="images/dr.png" alt="день рождения">
+                        <div class="promo-content">
+                            <div>
+                                <h3>Пакет ко дню<br>рождения</h3>
+                                <p>В свой день рождения посетители<br>получают экскурсию по планетарию</p>
+                            </div>
+                            <a class="promo-btn"><img src="images/str.png" alt="стрелка"></a>
+                        </div>
+                    </div>
+                    <div class="promo-card">
+                        <img src="images/fam.png" alt="бабушка">
+                        <div class="promo-content">
+                            <div>
+                                <h3>Акция<br>"День семьи"</h3>
+                                <p>В воскресенье семьи с двумя детьми<br>получают карту звёздного неба</p>
+                            </div>
+                            <a class="promo-btn"><img src="images/str.png" alt="стрелка"></a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section><!-- конец 3 страницы -->
+            <img class="zvz" src="images/svg.png" alt="звёздочки"><!-- это общая картинка на весь сайт оказывается лол)) -->
+    
+        </main>
+
 </body>
 </html>
